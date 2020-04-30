@@ -10,7 +10,11 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-    if (message.content.includes(`<@!${client.user.id}>`)) {
+    if (
+        message.author.id !== client.user.id && (
+        Math.floor(Math.random() * 30) === 0
+        || message.content.toLowerCase().includes('gonk'))
+        ) {
         message.channel.send('Gonk!');
     }
 });
