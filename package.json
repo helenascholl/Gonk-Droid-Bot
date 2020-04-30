@@ -1,0 +1,25 @@
+{
+  "name": "gonk-droid-bot",
+  "version": "1.0.0",
+  "description": "Gonk!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schollsebastian/Gonk-Droid-Bot.git"
+  },
+  "keywords": [
+    "gonk"
+  ],
+  "author": "Sebastian Scholl <scholl.sebastian@gmx.at> (github.com/schollsebastian)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schollsebastian/Gonk-Droid-Bot/issues"
+  },
+  "homepage": "https://github.com/schollsebastian/Gonk-Droid-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
