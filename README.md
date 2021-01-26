@@ -10,11 +10,10 @@ https://discordapp.com/oauth2/authorize?&client_id=705347334178865170&scope=bot&
 
 ### Create a Discord Application
 
-If you want to run the bot yourself, [create a new Discord Bot](https://discordapp.com/developers/docs/intro#bots-and-apps) and copy the token into  `auth.json`.
+If you want to run the bot yourself, [create a new Discord Bot](https://discordapp.com/developers/docs/intro#bots-and-apps) and copy the token into  `.env` (do not commit this file).
 
 ### Start the Bot
 
 ```shell
-npm install
-npm start
+docker-compose up -d
 ```
