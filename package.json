@@ -11,7 +11,10 @@
     "url": "git+https://github.com/schollsebastian/Gonk-Droid-Bot.git"
   },
   "keywords": [
-    "gonk"
+    "gonk",
+    "star-wars",
+    "discord-bot",
+    "prequelmemes"
   ],
   "author": "Sebastian Scholl <scholl.sebastian@gmx.at> (github.com/schollsebastian)",
   "license": "MIT",
